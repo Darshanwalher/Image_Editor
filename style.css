@@ -237,3 +237,52 @@ canvas{
     align-items: center;
     gap: var(--gutter-sm);
 }
+
+@media (max-width: 768px){
+
+    main section{
+        flex-direction: column;
+        padding: var(--padding-lg);
+        gap: var(--gutter-md);
+    }
+
+    main section .left,
+    main section .right{
+        width: 100%;
+    }
+
+    main section .top{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--gutter-sm);
+    }
+
+    main section .left .bottom{
+        padding: var(--padding-lg);
+        aspect-ratio: auto;
+        min-height: 250px;
+    }
+
+    canvas{
+        max-width: 100%;
+        max-height: 60vh;
+    }
+
+    main section .right{
+        padding: var(--padding-lg);
+    }
+
+    main section .right h2{
+        font-size: var(--font-lg);
+    }
+
+    .btn{
+        width: 100%;
+        padding: var(--padding-md);
+        font-size: var(--font-md);
+    }
+
+    .presets{
+        justify-content: center;
+    }
+}
