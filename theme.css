@@ -1,0 +1,122 @@
+/* :root{ */
+    /* background colors */
+    /* --primary-bg: rgb(17, 17, 17);     
+    --secondary-bg: rgb(37, 37, 37);   
+    --tertiary-bg: rgb(233, 233, 233);     */
+
+    /* text colors */
+    /* --text-primary: rgb(245, 245, 245); 
+    --text-secondary: rgb(16, 15, 15);
+    --text-muted: rgb(130, 130, 130); */
+
+
+
+    /* padding var */
+    /* --padding-sm:0.5rem;
+    --padding-md:1rem;
+    --padding-lg:1.5rem;
+    --padding-xl:2rem;
+    --padding-2xl:3rem; */
+
+    /* margin vars */
+    /* --margin-sm: 0.5rem;
+    --margin-md: 1rem;
+    --margin-lg: 1.5rem;
+    --margin-xl: 2rem;
+    --margin-2xl: 2.5rem; */
+
+    /* gutter vars (for grid / layout spacing) */
+    /* --gutter-sm: 0.5rem;
+    --gutter-md: 1rem;
+    --gutter-lg: 1.5rem;
+    --gutter-xl: 2rem;
+    --gutter-2xl: 2.5rem; */
+
+    /* font-size vars */
+    /* --font-sm: 0.875rem;   
+    --font-md: 1rem;      
+    --font-lg: 1.25rem;    
+    --font-xl: 1.5rem;     
+    --font-2xl: 2rem;      */
+
+    /* border-radius vars */
+    /* --radius-sm: 0.25rem; 
+    --radius-md: 0.5rem;   
+    --radius-lg: 0.75rem;  
+    --radius-xl: 1rem;     
+    --radius-2xl: 1.5rem;   */
+
+
+/* } */
+
+:root{
+    /* =========================
+       BACKGROUND COLORS
+       ========================= */
+    --primary-bg: #121212;        /* app background */
+    --secondary-bg: #1e1e1e;      /* cards / panels */
+    --tertiary-bg: #2a2a2a;       /* elevated elements */
+
+    /* =========================
+       ACCENT COLORS
+       ========================= */
+    --accent: #4f9cff;            /* primary accent (blue) */
+    --accent-hover: #3b82f6;
+    --danger: #ef4444;
+    --success: #22c55e;
+
+    /* =========================
+       TEXT COLORS
+       ========================= */
+    --text-primary: #f5f5f5;
+    --text-secondary: #d1d5db;
+    --text-muted: #9ca3af;
+
+    /* =========================
+       PADDING
+       ========================= */
+    --padding-sm: 0.5rem;
+    --padding-md: 1rem;
+    --padding-lg: 1.5rem;
+    --padding-xl: 2rem;
+    --padding-2xl: 3rem;
+
+    /* =========================
+       MARGIN
+       ========================= */
+    --margin-sm: 0.5rem;
+    --margin-md: 1rem;
+    --margin-lg: 1.5rem;
+    --margin-xl: 2rem;
+
+    /* =========================
+       GUTTER
+       ========================= */
+    --gutter-sm: 0.5rem;
+    --gutter-md: 1rem;
+    --gutter-lg: 1.5rem;
+    --gutter-xl: 2rem;
+
+    /* =========================
+       FONT SIZES
+       ========================= */
+    --font-sm: 0.875rem;
+    --font-md: 1rem;
+    --font-lg: 1.125rem;
+    --font-xl: 1.375rem;
+    --font-2xl: 1.75rem;
+
+    /* =========================
+       BORDER RADIUS
+       ========================= */
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --radius-xl: 18px;
+
+    /* =========================
+       SHADOWS
+       ========================= */
+    --shadow-sm: 0 2px 6px rgba(0,0,0,0.3);
+    --shadow-md: 0 8px 24px rgba(0,0,0,0.4);
+}
